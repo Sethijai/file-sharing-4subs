@@ -10,13 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>owner</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/ultroid_official'> ʙᴏᴛs</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/MovizTube'>MovizTube</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/ultroidofficial_chat'>ᴏ ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴄʜᴀᴛ : <a href='https://t.me/MovizTube_Group'>ᴢᴏɴᴇ</a></b>",
-            disable_web_page_preview = True,
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='http://t.me/talkwithHACKHEIST_BOT'>𝐇𝐀𝐂𝐊𝐇𝐄𝐈𝐒𝐓</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/OPMASTER_LECTURE'> JOIN</a>\n○ YOUTUBE : <a href='https://youtube.com/@Team_Opmaster'>Subscribe</a></b>",  disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
                     InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 Youtube', url='https://youtube.com/@ultroidofficial')
+                    InlineKeyboardButton('🍁 Youtube', url='https://youtube.com/@Team_Opmaster')
                     ]
                 ]
             )
