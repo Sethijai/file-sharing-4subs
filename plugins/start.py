@@ -84,7 +84,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('🍁 Youtube', url='https://youtube.com/@ultroidofficial')
+                    InlineKeyboardButton('🍁 SUBSCRIBE Youtube', url='https://youtube.com/@Team_Opmaster')
                 ]
             ]
         )
@@ -117,12 +117,12 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink2),
+            InlineKeyboardButton(text="🙏 ᴊᴏɪɴ 𝗢𝗣𝗠𝗔𝗦𝗧𝗘𝗥 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+            InlineKeyboardButton(text="ᴊᴏɪɴ 𝗝𝗘𝗘 𝗨𝗣𝗦𝗖𝗔𝗟𝗘", url=client.invitelink2),
         ],
         [
-            InlineKeyboardButton(text="• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=client.invitelink3),
-            InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •", url=client.invitelink4),
+            InlineKeyboardButton(text="• 𝐁𝐀𝐂𝐊𝐔𝐏 𝟎𝟏", url=client.invitelink3),
+            InlineKeyboardButton(text="𝐁𝐀𝐂𝐊𝐔𝐏 𝟎𝟐 •", url=client.invitelink4),
         ]
     ]
     try:
